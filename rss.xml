@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>Web Real Madrid</title>
+    <link>[https://rubenarenasmesa.github.io/web-real-madrid/](https://rubenarenasmesa.github.io/web-real-madrid/)</link>
+    <description>Toda la actualidad, historia y plantilla del Real Madrid.</description>
+    <language>es</language>
+    <item>
+        <title>Historia del Club</title>
+        <link>https://rubenarenasmesa.github.io/web-real-madrid/historia.html</link>
+        <guid>https://rubenarenasmesa.github.io/web-real-madrid/historia.html</guid>
+        <pubDate>Mon, 02 Nov 2026 10:00:00 +0100</pubDate>
+        <description>Repaso por las mejores épocas y Champions del club.</description>
+    </item>
+    <item>
+        <title>Plantilla Actual</title>
+        <link>https://rubenarenasmesa.github.io/web-real-madrid/plantilla.html</link>
+        <guid>https://rubenarenasmesa.github.io/web-real-madrid/plantilla.html</guid>
+        <pubDate>Tue, 03 Nov 2026 10:00:00 +0100</pubDate>
+        <description>Conoce a los jugadores de la primera plantilla.</description>
+    </item>
+    <item>
+        <title>El Nuevo Bernabéu</title>
+        <link>https://rubenarenasmesa.github.io/web-real-madrid/estadio.html</link>
+        <guid>https://rubenarenasmesa.github.io/web-real-madrid/estadio.html</guid>
+        <pubDate>Wed, 04 Nov 2026 10:00:00 +0100</pubDate>
+        <description>Descubre las novedades de la remodelación del estadio.</description>
+    </item>
+</channel>
+</rss>
