@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla del Real Madrid</title>
+</head>
+
+<body>
+    <!-- CABECERA COMÚN -->
+    <header>
+        <img src="img/logo.svg" alt="Logotipo oficial del Real Madrid">
+        <h1>Plantilla del Primer Equipo</h1>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN COMÚN -->
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Volver a la portada de Pasión Blanca">Inicio</a></li>
+            <li><a href="historia.html" title="Lee artículos históricos sobre nuestras Champions">Historia</a></li>
+            <li><a href="plantilla.html" title="Consulta la tabla con los jugadores del primer equipo">Plantilla</a>
+            </li>
+            <li><a href="estadio.html" title="Fotos y vídeos del Santiago Bernabéu">Estadio y Multimedia</a></li>
+            <li><a href="noticias.html" title="Suscríbete a nuestra newsletter">Noticias</a></li>
+        </ul>
+
+        <!-- CONTENIDO PRINCIPAL: LA TABLA DE JUGADORES -->
+        <main>
+            <h2>Jugadores Destacados - Temporada 2026/2027</h2>
+            <table border="1">
+                <caption>Tabla de jugadores del primer equipo</caption>
+                <thead>
+                    <tr>
+                        <th>Dorsal</th>
+                        <th>Nombre</th>
+                        <th>Posición</th>
+                        <th>Nacionalidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Thibaut Courtois</td>
+                        <td>Portero</td>
+                        <td>Bélgica</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Trent Alexander-Arnold</td>
+                        <! -- rowspan="2" para indicar que este jugador ocupa dos filas en la tabla -->
+                            <td rowspan="2">Defensa</td>
+                            <td>Inglaterra</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Eder Militao</td>
+                        <td>Brasil</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Jude Bellingham</td>
+                        <td>Centrocampista</td>
+                        <td>Inglaterra</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Vinícius Jr.</td>
+                        <!-- rowspan="3" para indicar que este jugador ocupa tres filas en la tabla -->
+                        <td rowspan="3">Delantero</td>
+                        <td>Brasil</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Kylian Mbappé</td>
+
+                        <td>Francia</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>Yan Diomande</td>
+
+                        <td>Costa de Marfil</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <!-- colspan="4" para indicar que esta celda ocupa las cuatro columnas para el entrenador -->
+                        <td colspan="4" style="text-align: center;"><strong>Entrenador:</strong> José Mourinho</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+
+        <!-- PIE DE PÁGINA COMÚN -->
+        <footer>
+            <address>
+                Sitio web creado por: Rubén Arenas Mesa<br>
+                Curso: 1º DAM - Módulo: Lenguaje de marcas<br>
+                Año: 2026
+            </address>
+</body>
+
+</html>
